@@ -11,7 +11,7 @@
 [Packages]
   MdePkg/MdePkg.dec
   ArmPkg/ArmPkg.dec
-  XiaomiMI8Pkg/XiaomiMI8Pkg.dec
+  TroikaPkg/TroikaPkg.dec
 
 [LibraryClasses]
   ArmLib
@@ -22,9 +22,9 @@
   CacheMaintenanceLib
 
 [Pcd]
-  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress
-  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferWidth
-  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferHeight
-  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
-  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth
-  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight
+  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferAddress
+  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth
+  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight
+  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
+  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth
+  gTroikaPkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight
