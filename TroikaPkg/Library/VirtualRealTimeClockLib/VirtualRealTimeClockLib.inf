@@ -30,7 +30,7 @@
   ArmPkg/ArmPkg.dec
   MdePkg/MdePkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
-  XiaomiMI8Pkg/XiaomiMI8Pkg.dec
+  TroikaPkg/TroikaPkg.dec
 
 [LibraryClasses]
   IoLib
@@ -40,4 +40,4 @@
   PcdLib
 
 [FixedPcd]
-  gXiaomiMI8PkgTokenSpaceGuid.PcdBootShimInfo1
+  gTroikaPkgTokenSpaceGuid.PcdBootShimInfo1
