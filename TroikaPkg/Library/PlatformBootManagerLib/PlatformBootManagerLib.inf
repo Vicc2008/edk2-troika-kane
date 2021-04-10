@@ -39,7 +39,7 @@
   MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
   ShellPkg/ShellPkg.dec
-  XiaomiMI8Pkg/XiaomiMI8Pkg.dec
+  TroikaPkg/TroikaPkg.dec
 
 [BuildOptions.AARCH64]
   GCC:*_*_*_CC_FLAGS = -Wno-unused-variable
