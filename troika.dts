@@ -1,0 +1,9 @@
+// Minimal DTB for Motorola One Action
+
+/dts-v1/;
+
+/ {
+	troika {
+		model = "Motorola One Action";
+		compatible = "motorola,troika";
+};
